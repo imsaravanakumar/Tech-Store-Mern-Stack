@@ -54,7 +54,7 @@ const Hero = () => {
             {/* Overlay Content */}
             {i === index && (
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-gradient-to-t from-black/70 via-black/30 to-transparent">
-                <h1 className="font-semibold md:font-bold text-white text-4xl md:text-6xl uppercase mb-6 animate-fadeInDown">
+                <h1 className="font-extrabold text-white text-4xl md:text-6xl uppercase mb-6 animate-fadeInDown">
                   {obj.productname}
                 </h1>
                 <Link
